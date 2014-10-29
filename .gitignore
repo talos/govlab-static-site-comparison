@@ -1,0 +1,4 @@
+nikola/output
+nikola/cache
+*.pyc
+*.db

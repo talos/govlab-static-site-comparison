@@ -257,4 +257,14 @@ you've already created a blank `gh-pages` branch and pushed it to GitHub.
 
   [a bug]: https://github.com/getnikola/nikola/issues/1464
 
+This means you have to do this yourself, which can be dangerous -- make sure
+you've committed everything on `master` and no untracked files are hanging out
+before doing this!
+
+```
+git checkout --orphan gh-pages
+git rm -rf .
+git checkout master
+```
+
 __Victor__:

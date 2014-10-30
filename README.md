@@ -267,4 +267,8 @@ git rm -rf .
 git checkout master
 ```
 
+Now, `nikola github_deploy` should work as expected.
+
+
+
 __Victor__:

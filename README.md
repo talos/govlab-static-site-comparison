@@ -1,8 +1,8 @@
 ## GovLab Static Python Static Site Generator Smackkdown
 
-In the red corner: [Pelican][http://blog.getpelican.com/]
+In the red corner: [Pelican](http://blog.getpelican.com/)
 
-In the blue corner: [Nikola][http://www.getnikola.com]
+In the blue corner: [Nikola](http://www.getnikola.com)
 
 Here's a list of their shared attractive attributes, which is why they were put
 in competition:
@@ -283,5 +283,5 @@ is, shockingly, a killer feature.  I also found far more intuitive error
 messages in Nikola.  The broken `github_deploy` is a major problem, but only
 needs to be addressed once when you set up a site.
 
-[Nikola][[http://www.getnikola.com]!
+[Nikola]([http://www.getnikola.com)!
 

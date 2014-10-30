@@ -249,10 +249,12 @@ from pip:
 
 `pip install ghp-import`
 
+After installing `ghp-import`, `make github` works great.
 
+Nikola has a builtin command for deploying to github, `nikola github_deploy`.
+Unfortunately, it has a serious [bug][] at the moment, and won't work unless
+you've already created a blank `gh-pages` branch and pushed it to GitHub.
+
+  [a bug]: https://github.com/getnikola/nikola/issues/1464
 
 __Victor__:
-
-### Non-blog pages
-
-### Custom theming

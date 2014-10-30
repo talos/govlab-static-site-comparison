@@ -264,11 +264,24 @@ before doing this!
 ```
 git checkout --orphan gh-pages
 git rm -rf .
+git commit --allow-empty -m 'first commit'
+git push origin gh-pages:gh-pages
 git checkout master
 ```
 
 Now, `nikola github_deploy` should work as expected.
 
+__Victor__: Pelican.  It would've been great if Nikola's feature worked as
+expected, and hopefully they'll fix it soon.
 
+## The ultimate victor?
 
-__Victor__:
+Nikola and Pelican offer nearly identical feature sets.  Nikola's built in
+CLI is nearly self-documenting; I found navigating it much more intuitive than
+browsing the Pelican docs and Makefile.  Being able to create a post skeleton
+is, shockingly, a killer feature.  I also found far more intuitive error
+messages in Nikola.  The broken `github_deploy` is a major problem, but only
+needs to be addressed once when you set up a site.
+
+[Nikola][[http://www.getnikola.com]!
+
